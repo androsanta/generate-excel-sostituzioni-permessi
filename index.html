@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+
+    <title>Generatore Excel</title>
+</head>
+
+<body class="light-background">
+
+    <div class="container-fluid title-container border-separator">
+        <h1>Generatore Excel</h1>
+    </div>
+
+    <div class="container content-container border-separator">
+        <h3>Sostituzioni / Permessi</h3>
+        <div class="flex-center" style="margin-top: 30px">
+            <div class="input-group mb-3" style="max-width: 250px;">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">Anno scolastico</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Anno scolastico" aria-describedby="basic-addon2"
+                    id="annoscolastico">
+            </div>
+            <div class="text">Lista docenti</div>
+            <div class="input-group mb-3" style="max-width: 550px; min-height: 200px">
+                <textarea id="listadocenti" placeholder="Pinco pallino joe..." class="form-control" aria-label="Lista docenti"></textarea>
+            </div>
+            <button type="button" class="btn btn-dark" onclick="onSubmit()">Genera file</button>
+        </div>
+    </div>
+
+    <script src="lib/build/index.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+.light-background {
+    background-color: #f4efef;
+}
+
+.title-container {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #13121e;
+}
+
+.border-separator {
+    border: solid #d6d1cf 1px;
+}
+
+.content-container {
+    margin-top: 10px;
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #13121e;
+}
+
+.text {
+    color: #27253e;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
